@@ -6,7 +6,7 @@
   <tfoot>
   <tr>
     <td colspan="3">
-      <%= link_to 'New product', new_product_path %>
+      <%= link_to 'Добавить новый товар', new_product_path %>
     </td>
   </tr>
 </tfoot>
@@ -24,9 +24,9 @@
       </td>
       <td class="actions">
         <ul>
-          <li><%= link_to 'Show', product %></li>
-          <li><%= link_to 'Edit', edit_product_path(product) %></li>
-          <li><%= link_to 'Destroy',product,method: :delete, data: { confirm: 'Are you sure?' } %>
+          <li><%= link_to 'Подробней', product %></li>
+          <li><%= link_to 'Редактировать', edit_product_path(product) %></li>
+          <li><%= link_to 'Удалить',product,method: :delete, data: { confirm: 'Вы уверены?' } %>
           </li>
         </ul>
       </td>
